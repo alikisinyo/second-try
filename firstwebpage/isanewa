@@ -1,0 +1,15 @@
+
+        <p>Gender: </p>
+            <select>
+                <option>MALE</option>
+                <option>FEMALE</option>
+            </select>
+        <P>Favourite color? </P>
+        <p><input type="radio">RED</p>
+        <p><input type="radio">BLUE</p>
+        <p><input type="radio">GREEN</p>
+        
+        <p><textarea cols=50 rows=70></textarea></p>
+        <input type="submit">
+    </body>
+</html>
