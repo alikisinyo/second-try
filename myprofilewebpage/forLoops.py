@@ -35,7 +35,7 @@ print(total)
 
 # questions
 # 1. write a program that prints you name 100 times using a WHILE AND LOOP
-# 2. write a program that outputs 100 lines numberes 1 to 100 and has you name in it
+# 2. write a program that outputs 100 lines numbered 1 to 100 and has you name in it
 # 3. write a program that uses a for loop to print the numbers 8,11,14,17,20......86,89
 # 4. write a program that prints the first 20 numbers and their cubes.
 # example of 4
@@ -44,3 +44,4 @@ print(total)
 #   3...9...27
 # -->20...400...8000
 # ---------------------->use both a for loop and while loop <--------------------------
+
