@@ -1,0 +1,48 @@
+introduction to python
+ characteristics
+ 	-interpreted - not compiled language
+ 	-high level - it uses human language / assembly(low level)
+ 	-general purpose - can do anything
+ 			specific purpose- LISP
+
+ 	Rules of naming in programming
+ 		-identifiers are names used to represent
+ 		         *var
+ 		         *fun
+ 		         *classes
+ 		         *objects
+ 1. identifiers cannot contain spaces in betweeen
+ 2. all normal variable should begin with small letters
+ 3. identifiers cannot start with a number
+ 4. identifier cannot contain special characters
+ 	-*,£,@,$,!
+ 5. identifier cannot contain key words
+ 			-predefined/reserved words
+ 			 -print,import,and,if,pass,as,return,elif,else,while,execpt,class,str,not,True,False,
+ 			 from,def,input,global,non-local.
+
+ vitual enviroment is a folder within your project that will contain all the project dependencies.
+ 			including python. it hold anything else that is not your code
+
+variables are containers for temporary storing data values for later refrence
+
+
+Data types
+	(primitive)
+	-strings
+	-list
+	-boleen
+	-integer
+
+
+
+	-set
+	-range
+	-none
+	-tuple
+
+	a list is a collection of more than one variable (arrays)
+	DATA STRUCTURES AND ALGORITHMS
+
+
+learning writing in ruby
