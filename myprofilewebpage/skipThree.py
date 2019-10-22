@@ -6,4 +6,6 @@ a = 8
 while 8 <= a < 92:
     print(a)
     a += 3
-    
+
+x = range(100)
+print(type(x))
