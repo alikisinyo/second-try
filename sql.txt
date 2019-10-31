@@ -1,0 +1,39 @@
+spreadsheet 						sql
+Workbook							Database
+Worksheet							Table/relation
+Coloumn								Field
+Row										record
+
+
+
+unstructured SQL
+a.  MongoDB
+b. Firebase
+c. Parse
+d. Cassandra
+
+SQL
+CREATE QUERY- USED TO CREAE A TABLE
+SELECT QUERY - used to fech data
+UPDATEQUERY -update existing record
+INSERT QUERY - creates a new record
+DELETE QUERY - DELETE A RECORD
+
+RBDMS
+
+RELATIONAL
+DATA
+BASE
+MANAGEMENT
+SYSTEM
+
+PRIMARY key is a special coloumn in a table to uniquely identify record in a value
+foriegn key.
+
+relationship
+one to one
+one to many one parent record appear to many times in the child table.
+many to many
+
+
+learn nomalization

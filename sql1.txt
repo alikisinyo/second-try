@@ -1,0 +1,36 @@
+no1
+
+SELECT c.customername,c.city,c.address,c.postalcode, c.country, o.orderid,o.orderdate,productname,suppliername,shippername,quantity from customers as c 
+join orders  as o on c.customerid = o.customerid
+join orderdetails as ord on o.orderid = ord.orderid
+join products as ps on ord.productid = ps.productid
+
+no2
+
+SELECT c.productname,c.productid,c.supplierid from products as c 
+join suppliers  as su on c.supplierid = su.supplierid
+
+
+no3
+SELECT Shippers.ShipperName,COUNT(Orders.OrderID) AS NumberOfOrders FROM Orders
+LEFT JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID
+GROUP BY ShipperName;
+
+
+
+no4
+
+SELECT distinct c.country,ordt.quantity
+from customers as c
+join orders as ord on c.customerid = ord.customerid
+join orderdetails as ordt on ord.orderid = ordt.orderid
+where c.country in ('Brazil', 'Italy');
+
+no5
+
+SELECT *
+FROM customers
+WHERE contactname like '%son%'
+
+no6
+

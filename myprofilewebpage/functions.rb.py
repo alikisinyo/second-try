@@ -72,19 +72,22 @@ divisor(6)
 # firstCapital("ali")
 #
 #
-# def upperCase(name):
-#     index1 = name[0].upper
-#     fullname = index1 + name[1:]
-#     print(fullname)
+def upperCase(name):
+    index1 = name[0].upper
+    fullname = index1 + name[1:]
+    print(fullname)
+
+
+upperCase(name)
 #
 # def name(aName):
 #     print(aName.replace("morning", "afternoon"))
 
 
-def subtract(a, b):
-    # summ = a - b
-    # print(summ)
-    return a - b
-
-
-print(subtract(10, 10))
+# def subtract(a, b):
+#     # summ = a - b
+#     # print(summ)
+#     return a - b
+#
+#
+# print(subtract(10, 10))
