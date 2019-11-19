@@ -1,0 +1,5 @@
+ORM -object relation mapping
+this is a library that use OR
+
+since we are using python the orm we use is for flask is  SQLAlchemy
+to also simplyfy the process we will use Flask-SQLAlchemy which is a flask extension
